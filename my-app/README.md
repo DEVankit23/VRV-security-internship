@@ -57,7 +57,7 @@ Make sure you have the following installed:
 2. Navigate to the project directory:
 
    ```bash
-   cd myy-app
+   cd my-app
    ```
 
 3. Install dependencies:
