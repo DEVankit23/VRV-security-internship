@@ -48,19 +48,37 @@ Make sure you have the following installed:
 - npm or yarn package manager
 
 ### **Steps**
+
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/your-username/rbac-management-system.git
-   cd rbac-management-system
+   ```
+   
+2. Navigate to the project directory:
 
-## Available Scripts
+   ```bash
+   cd myy-app
+   ```
 
-In the project directory, you can run:
+3. Install dependencies:
 
-### `npm start`
+   ```bash
+   npm install
+   ```
+   
+4. Install mock service worker (MSW) dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   ```bash
+   npm install msw --save-dev
+   ```
+
+5. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+6. Open your browser and navigate to  [http://localhost:3000](http://localhost:3000).
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
